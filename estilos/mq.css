@@ -1,0 +1,90 @@
+@media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  
+  body {
+    height: 95vh;
+    width: 95vw;
+    background: url("../imagens/wlp/fundo.jpg") no-repeat center center;
+    background-attachment: fixed;
+  }
+
+  main {
+    position: relative;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    background: none;
+    border: none;
+    border-radius: 0;
+  }
+
+  main > img {
+    float: left;
+    width: 25%;
+    height: 40%;
+    margin-top: 20px;
+    margin-left: 0;
+    padding-right: 20px;
+    border-radius: 12px;
+    box-shadow: none;
+  }
+
+  main > h2 {
+    display: block;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-shadow: none;
+  }
+
+  main > h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-shadow: none;
+  }
+
+  main > a {
+    display: inline;
+    align-self: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.189);
+  }
+
+  main > iframe {
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.156);
+    border: 1px solid rgba(0, 0, 0, 0.112)
+  }
+
+  footer {
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  footer > p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  footer > p > a {
+    margin-left: -20px;
+  }
+}
