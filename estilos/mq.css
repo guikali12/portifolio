@@ -62,8 +62,8 @@
   }
 
   main > iframe {
-    width: 350px;
-    height: 250px;
+    width: 250px;
+    height: 300px;
     margin: auto;
     margin-top: 20px;
     border-radius: 15px;
